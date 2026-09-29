@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+  color: #fff;
+  padding: auto;
+}
+.carousel {
+  margin: 0;
+  padding: 0;
+}
+.carousel-item {
+  height: 400px;
+  background-color: #777;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-img1 {
+  background-image: url("./beach\ sunny.png");
+}
+.bg-img2 {
+  background-image: url("./cafebacony.png");
+}
+.bg-img3 {
+  background-image: url("./cafebeach.png");
+}
+.carousel-caption {
+  bottom: 50px;
+  z-index: 10;
+}
+.carousel-caption h1 {
+  font-weight: 600;
+  font-size: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.carousel-caption p {
+  font-size: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+footer {
+  padding: 20px 0;
+}
